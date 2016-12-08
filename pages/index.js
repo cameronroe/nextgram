@@ -42,6 +42,7 @@ export default class extends React.Component {
   render () {
     return (
       <div className={style(styles.list)}>
+        <h1>Instagram</h1>
         {
           this.props.url.query.id &&
             <Modal
